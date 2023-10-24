@@ -1,0 +1,127 @@
+/* #1F2B6C */
+/* #159EEC */
+/* BFD2F8 */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    font-family: 'Yeseva One', serif;
+}
+
+.logo{
+    text-decoration: none;
+    font-size: 20px; 
+    font-family: 'Yeseva One', serif;
+    font-weight: 60px;
+    color: black;
+    display: inline;
+    /* gap: 40px; */
+    
+}
+
+
+
+.primary-line{
+    color: #1F2B6C;
+    font-family: 'Yeseva One', serif;
+}
+
+.header{
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content:space-evenly
+    /* flex-wrap: wrap-reverse; */
+}
+#mein section{
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    gap: 20px;
+}
+
+
+nav{
+width: 100%; 
+height: 80px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.navitems a{
+    text-decoration: none; 
+    color:#BFD2F8; 
+    font-size: 14px; 
+    font-family: 'Work Sans', sans-serif;
+    /* font-weight: 500; */
+}
+
+.navitems{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+
+}
+
+.nav2{
+background-color: #1F2B6C;
+width: 100%; 
+height: 56px;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+}
+
+.button{
+background-color: #BFD2F8;
+font-family: 'Work Sans', sans-serif;
+    color: #1F2B6C;
+    font-size: 14px; 
+    font-weight: 70vw;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    text-transform: capitalize;
+
+}
+.header1 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 8vw;
+    color: #1F2B6C;
+    font-family: 'Work Sans', sans-serif;
+}
+
+h1{
+    color: #1F2B6C;
+    font-family: 'Yeseva One', serif;
+}
+p{
+   font-family: 'Work Sans', sans-serif;
+   color: #159EEC ;
+   text-transform: uppercase;
+   font-weight: 700;
+   letter-spacing: 2.88px;
+}
+h5{
+    font-weight: 600;
+    font-family: 'Work Sans', sans-serif;\ 
+}
+h6{
+    color:#159EEC;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    word-wrap: break-word
+}
+
+/* style="font-family: 'Yeseva One', serif;" */
