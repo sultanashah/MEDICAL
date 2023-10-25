@@ -19,11 +19,30 @@ body{
     font-family: 'Yeseva One', serif;
     font-weight: 60px;
     color: black;
-    display: inline;
-    /* gap: 40px; */
-    
+    display: flex;
+    justify-items: flex-start;
 }
+   
+    
+    
+.comb-logo{
+    display: flex;
 
+    margin-right: 90px;
+}
+/* section header {
+    /* width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content:space-evenly; */
+    /* gap: 20vw;
+} */ 
+
+/* .section1{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+} */
 
 
 .primary-line{
@@ -35,26 +54,42 @@ body{
     width: 100%;
     display:flex;
     align-items: center;
-    justify-content:space-evenly
+    justify-content:space-evenly;
+    gap: 25vw;
     /* flex-wrap: wrap-reverse; */
 }
-#mein section{
+section{
     width: 100%;
     display:flex;
     align-items: center;
-    justify-content:space-between;
-    gap: 20px;
+    justify-content:space-evenly;
+    /* gap: 20px; */
 }
 
 
 nav{
 width: 100%; 
-height: 80px;
+height: 90px;
 display: flex;
 align-items: center;
 justify-content: space-between;
 }
 
+/* .section1{
+    display:flex;
+    align-items: center;
+    justify-content:space-evenly;
+    gap: 20px;
+} */
+
+.headbutton{
+    display: flex ;
+}
+
+.headbutton .icon{
+    gap :16px;
+
+}
 .navitems a{
     text-decoration: none; 
     color:#BFD2F8; 
@@ -77,11 +112,12 @@ height: 56px;
 display: flex;
 align-items: center;
 justify-content: space-evenly;
+/* padding: 6vw; */
 }
 
 .button{
-background-color: #BFD2F8;
-font-family: 'Work Sans', sans-serif;
+    background-color: #BFD2F8;
+    font-family: 'Work Sans', sans-serif;
     color: #1F2B6C;
     font-size: 14px; 
     font-weight: 70vw;
@@ -89,8 +125,9 @@ font-family: 'Work Sans', sans-serif;
     border-radius: 20px;
     border: none;
     text-transform: capitalize;
-
 }
+
+
 .header1 {
     width: 100%;
     display: flex;
@@ -101,27 +138,61 @@ font-family: 'Work Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
 
-h1{
+.hero h1{
     color: #1F2B6C;
     font-family: 'Yeseva One', serif;
+    font-size: 48px;
 }
-p{
+
+/* .hero .secondary-color{
    font-family: 'Work Sans', sans-serif;
    color: #159EEC ;
    text-transform: uppercase;
    font-weight: 700;
    letter-spacing: 2.88px;
+} */
+
+.headbutton h5{
+
+    font-weight: 520;
+    font-family: 'Work Sans', sans-serif;
 }
-h5{
-    font-weight: 600;
-    font-family: 'Work Sans', sans-serif;\ 
-}
-h6{
+
+.headbutton h6{
     color:#159EEC;
     font-family: 'Work Sans', sans-serif;
     font-size: 14px;
     font-weight: 600;
     word-wrap: break-word
 }
+.overlay-text{
+    position: absolute;
+    padding-left: 6vw;
+}
 
-/* style="font-family: 'Yeseva One', serif;" */
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    /* padding-left: 2vw; */
+}
+
+.secondary-color{
+    font-family: 'Work Sans', sans-serif;
+   color: #159EEC ;
+   text-transform: uppercase;
+   font-weight: 700;
+   letter-spacing: 2.88px;
+}
+ .section2{
+    padding: 2vw;
+    margin: 2vw;
+    text-align: center;
+ }
+
+ @media only screen and (max-width: 600px) {
+    body {
+        margin: 4px;
+    }
+  }
